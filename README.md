@@ -1,25 +1,24 @@
 # 🛒 Shopping Cart – Java
 
-A simple **console-based Shopping Cart application built using Java**.
-This project is created to practice **Java, OOP, ArrayList, and user input**.
+A simple **console-based Shopping Cart application built with Java** to practice **Object-Oriented Programming (OOP), ArrayList, methods, loops, and user input handling**.
 
 ## 📌 Features
 
-* ➕ Add products
-* 👀 View cart
-* ❌ Remove products
-* 💰 View total price
-* 🧾 Checkout and generate bill
-* 🗑️ Clear cart after checkout
-* 🚪 Exit program
+* ➕ Add products to the cart
+* 👀 View all items in the cart
+* ❌ Remove products from the cart
+* 💰 Calculate the total price
+* 🧾 Checkout and generate a bill
+* 🗑️ Automatically clear the cart after checkout
+* 🚪 Exit the application
 * ✅ Basic input validation
 
 ## 🛠️ Technologies Used
 
-* Java
-* ArrayList
-* Scanner
-* Object-Oriented Programming (OOP)
+* **Java**
+* **ArrayList**
+* **Scanner**
+* **Object-Oriented Programming (OOP)**
 
 ## 📂 Project Structure
 
@@ -31,7 +30,7 @@ ShoppingCart/
 
 ## ⚙️ How It Works
 
-When the program starts, it shows a menu:
+When the application starts, a menu is displayed:
 
 ```text
 ===== SHOPPING CART =====
@@ -45,7 +44,7 @@ When the program starts, it shows a menu:
 
 ### 1. Add Product
 
-Enter the product name and price.
+The user can enter a product name and its price.
 
 ```text
 Enter product name: Keyboard
@@ -56,7 +55,7 @@ Product added to cart!
 
 ### 2. View Cart
 
-Shows all products currently in the cart.
+Displays all products currently added to the cart along with their prices.
 
 ```text
 ===== YOUR CART =====
@@ -66,7 +65,7 @@ Shows all products currently in the cart.
 
 ### 3. Remove Product
 
-Enter the product number to remove it.
+The user can select a product by its number to remove it from the cart.
 
 ```text
 Enter product number to remove: 2
@@ -76,7 +75,7 @@ Mouse removed.
 
 ### 4. View Total
 
-Calculates the total price of all products.
+Calculates and displays the total price of all products in the cart.
 
 ```text
 Total: ₹1298.00
@@ -84,7 +83,7 @@ Total: ₹1298.00
 
 ### 5. Checkout
 
-Displays the bill and clears the cart.
+Displays a final bill containing all products and the total amount. After checkout, the cart is automatically cleared.
 
 ```text
 ===== BILL =====
@@ -98,31 +97,31 @@ Thank you for shopping!
 
 ### 6. Exit
 
-Closes the program.
+Closes the application.
 
 ```text
 Thank you for using Shopping Cart!
 ```
 
-## 🧠 Concepts Used
+## 🧠 Concepts Practiced
 
-This project demonstrates:
+This project covers several fundamental Java concepts:
 
 * Classes and Objects
 * Constructors
-* Encapsulation basics
+* Basic Encapsulation
 * ArrayList
-* Scanner
+* Scanner for user input
 * Methods
 * Loops
-* if-else statements
-* switch statements
-* Enhanced for loops
+* `if-else` statements
+* `switch` statements
+* Enhanced `for` loops
 * Basic input validation
 
 ## 📦 Product Class
 
-Each product is represented using a `Product` object.
+Each product is represented as a `Product` object containing its name and price.
 
 ```java
 class Product {
@@ -143,9 +142,9 @@ Start
   ↓
 Display Menu
   ↓
-Choose an Option
+Select an Option
   ↓
-Add / View / Remove / Total
+Add / View / Remove / Calculate Total
   ↓
 Checkout
   ↓
@@ -158,7 +157,7 @@ Exit
 
 ## ▶️ How to Run
 
-Make sure Java is installed:
+Make sure Java is installed on your system:
 
 ```bash
 java --version
@@ -171,7 +170,7 @@ Compile the program:
 javac ShoppingCart.java
 ```
 
-Run the program:
+Run the application:
 
 ```bash
 java ShoppingCart
@@ -179,21 +178,23 @@ java ShoppingCart
 
 ## 🚀 Future Improvements
 
-Some possible improvements:
+The project can be expanded with features such as:
 
-* Product quantity
-* Product IDs
-* Search products
-* Discounts and coupons
+* Product quantities
+* Unique product IDs
+* Product search
+* Discounts and coupon codes
 * GST/tax calculation
-* File storage
-* MySQL database
-* User accounts
-* GUI
+* File-based data storage
+* MySQL database integration
+* User authentication and accounts
+* Graphical User Interface (GUI)
 
 ## 🎯 Learning Objective
 
-The main goal of this project is to practice basic Java programming and understand how **objects and collections can be used to build a simple real-world application**.
+The primary goal of this project is to strengthen **core Java and Object-Oriented Programming concepts** by building a simple real-world application.
+
+It also provides hands-on practice with **objects, collections, user input, and basic application logic**.
 
 ## 👨‍💻 Author
 
@@ -204,4 +205,5 @@ A Java learning project created to practice **Object-Oriented Programming and Ja
 ## 📄 License
 
 This project is created for **educational purposes**.
-Feel free to use and modify it for learning.
+
+Feel free to use, modify, and improve it for learning.
