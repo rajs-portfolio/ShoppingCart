@@ -1,24 +1,27 @@
 # 🛒 Shopping Cart – Java
 
-A simple **console-based Shopping Cart application built with Java** to practice **Object-Oriented Programming (OOP), ArrayList, methods, loops, and user input handling**.
+A simple **console-based Shopping Cart application built with Java**. This project was created to practice core Java concepts such as **Object-Oriented Programming (OOP), ArrayList, methods, loops, switch statements, and user input handling**.
 
-## 📌 Features
+## ✨ Features
 
-* ➕ Add products to the cart
-* 👀 View all items in the cart
-* ❌ Remove products from the cart
-* 💰 Calculate the total price
-* 🧾 Checkout and generate a bill
-* 🗑️ Automatically clear the cart after checkout
-* 🚪 Exit the application
-* ✅ Basic input validation
+- ➕ Add products to the shopping cart
+- 👀 View products in the cart
+- ❌ Remove products from the cart
+- 💰 Calculate the total price
+- 🧾 Checkout and generate a bill
+- 🗑️ Automatically clear the cart after checkout
+- 🚪 Exit the application
+- ✅ Basic input validation
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies & Concepts
 
-* **Java**
-* **ArrayList**
-* **Scanner**
-* **Object-Oriented Programming (OOP)**
+- **Java**
+- **ArrayList**
+- **Scanner**
+- **Object-Oriented Programming (OOP)**
+- **Loops & Conditional Statements**
+- **Methods**
+- **Classes & Objects**
 
 ## 📂 Project Structure
 
@@ -28,9 +31,9 @@ ShoppingCart/
 └── README.md
 ```
 
-## ⚙️ How It Works
+## ⚙️ How the Application Works
 
-When the application starts, a menu is displayed:
+When the program starts, it displays a menu with different shopping cart operations:
 
 ```text
 ===== SHOPPING CART =====
@@ -42,9 +45,9 @@ When the application starts, a menu is displayed:
 6. Exit
 ```
 
-### 1. Add Product
+### 1️⃣ Add Product
 
-The user can enter a product name and its price.
+Enter the product name and its price to add a new item to the cart.
 
 ```text
 Enter product name: Keyboard
@@ -53,9 +56,9 @@ Enter price: 799
 Product added to cart!
 ```
 
-### 2. View Cart
+### 2️⃣ View Cart
 
-Displays all products currently added to the cart along with their prices.
+Displays all products currently in the cart along with their prices.
 
 ```text
 ===== YOUR CART =====
@@ -63,9 +66,9 @@ Displays all products currently added to the cart along with their prices.
 2. Mouse - ₹499.00
 ```
 
-### 3. Remove Product
+### 3️⃣ Remove Product
 
-The user can select a product by its number to remove it from the cart.
+Select a product by its number to remove it from the cart.
 
 ```text
 Enter product number to remove: 2
@@ -73,17 +76,17 @@ Enter product number to remove: 2
 Mouse removed.
 ```
 
-### 4. View Total
+### 4️⃣ View Total
 
-Calculates and displays the total price of all products in the cart.
+Calculates and displays the total cost of all products in the cart.
 
 ```text
 Total: ₹1298.00
 ```
 
-### 5. Checkout
+### 5️⃣ Checkout
 
-Displays a final bill containing all products and the total amount. After checkout, the cart is automatically cleared.
+Generates a final bill containing the products and total amount. Once checkout is completed, the cart is automatically cleared.
 
 ```text
 ===== BILL =====
@@ -95,7 +98,7 @@ Total: ₹1298.00
 Thank you for shopping!
 ```
 
-### 6. Exit
+### 6️⃣ Exit
 
 Closes the application.
 
@@ -105,23 +108,23 @@ Thank you for using Shopping Cart!
 
 ## 🧠 Concepts Practiced
 
-This project covers several fundamental Java concepts:
+This project provides hands-on practice with several fundamental Java concepts:
 
-* Classes and Objects
-* Constructors
-* Basic Encapsulation
-* ArrayList
-* Scanner for user input
-* Methods
-* Loops
-* `if-else` statements
-* `switch` statements
-* Enhanced `for` loops
-* Basic input validation
+- Classes and Objects
+- Constructors
+- Basic Encapsulation
+- ArrayList
+- Scanner for user input
+- Methods
+- `for` and `while` loops
+- `if-else` statements
+- `switch` statements
+- Enhanced `for` loops
+- Basic input validation
 
 ## 📦 Product Class
 
-Each product is represented as a `Product` object containing its name and price.
+Each product is represented using a `Product` object containing its name and price.
 
 ```java
 class Product {
@@ -157,7 +160,9 @@ Exit
 
 ## ▶️ How to Run
 
-Make sure Java is installed on your system:
+Make sure Java is installed on your system.
+
+Check the installed Java version:
 
 ```bash
 java --version
@@ -178,23 +183,23 @@ java ShoppingCart
 
 ## 🚀 Future Improvements
 
-The project can be expanded with features such as:
+The application can be extended with additional features such as:
 
-* Product quantities
-* Unique product IDs
-* Product search
-* Discounts and coupon codes
-* GST/tax calculation
-* File-based data storage
-* MySQL database integration
-* User authentication and accounts
-* Graphical User Interface (GUI)
+- 📦 Product quantities
+- 🆔 Unique product IDs
+- 🔍 Product search
+- 🎟️ Discount and coupon support
+- 🧾 GST/tax calculation
+- 💾 File-based data storage
+- 🗄️ MySQL database integration
+- 👤 User authentication and accounts
+- 🖥️ Graphical User Interface (GUI)
 
 ## 🎯 Learning Objective
 
-The primary goal of this project is to strengthen **core Java and Object-Oriented Programming concepts** by building a simple real-world application.
+The main objective of this project is to strengthen **core Java and Object-Oriented Programming skills** by building a simple real-world application.
 
-It also provides hands-on practice with **objects, collections, user input, and basic application logic**.
+It provides practical experience with **classes, objects, collections, methods, user input, and application logic**.
 
 ## 👨‍💻 Author
 
@@ -206,4 +211,4 @@ A Java learning project created to practice **Object-Oriented Programming and Ja
 
 This project is created for **educational purposes**.
 
-Feel free to use, modify, and improve it for learning.
+Feel free to use, modify, and improve the project for learning and practice.
