@@ -1,27 +1,30 @@
 # 🛒 Shopping Cart – Java
 
-A simple **console-based Shopping Cart application built with Java**. This project was created to practice core Java concepts such as **Object-Oriented Programming (OOP), ArrayList, methods, loops, switch statements, and user input handling**.
+A simple **console-based Shopping Cart application built using Java**. This project was developed to practice fundamental Java programming concepts, including **Object-Oriented Programming (OOP), ArrayList, methods, loops, switch statements, and user input handling**.
 
 ## ✨ Features
 
 - ➕ Add products to the shopping cart
-- 👀 View products in the cart
+- 👀 View all products in the cart
 - ❌ Remove products from the cart
-- 💰 Calculate the total price
+- 💰 Calculate the total cart value
 - 🧾 Checkout and generate a bill
 - 🗑️ Automatically clear the cart after checkout
 - 🚪 Exit the application
 - ✅ Basic input validation
 
-## 🛠️ Technologies & Concepts
+## 🛠️ Technologies & Concepts Used
 
 - **Java**
 - **ArrayList**
 - **Scanner**
 - **Object-Oriented Programming (OOP)**
-- **Loops & Conditional Statements**
-- **Methods**
 - **Classes & Objects**
+- **Methods**
+- **Loops**
+- **Conditional Statements**
+- **Switch Statements**
+- **User Input Handling**
 
 ## 📂 Project Structure
 
@@ -31,9 +34,9 @@ ShoppingCart/
 └── README.md
 ```
 
-## ⚙️ How the Application Works
+## ⚙️ How It Works
 
-When the program starts, it displays a menu with different shopping cart operations:
+When the application starts, a menu is displayed with several shopping cart operations:
 
 ```text
 ===== SHOPPING CART =====
@@ -47,7 +50,7 @@ When the program starts, it displays a menu with different shopping cart operati
 
 ### 1️⃣ Add Product
 
-Enter the product name and its price to add a new item to the cart.
+Users can enter a product name and price to add an item to the cart.
 
 ```text
 Enter product name: Keyboard
@@ -58,7 +61,7 @@ Product added to cart!
 
 ### 2️⃣ View Cart
 
-Displays all products currently in the cart along with their prices.
+Displays all products currently added to the cart along with their prices.
 
 ```text
 ===== YOUR CART =====
@@ -68,7 +71,7 @@ Displays all products currently in the cart along with their prices.
 
 ### 3️⃣ Remove Product
 
-Select a product by its number to remove it from the cart.
+Users can select a product by its number to remove it from the cart.
 
 ```text
 Enter product number to remove: 2
@@ -78,7 +81,7 @@ Mouse removed.
 
 ### 4️⃣ View Total
 
-Calculates and displays the total cost of all products in the cart.
+Calculates and displays the total price of all products currently in the cart.
 
 ```text
 Total: ₹1298.00
@@ -86,7 +89,7 @@ Total: ₹1298.00
 
 ### 5️⃣ Checkout
 
-Generates a final bill containing the products and total amount. Once checkout is completed, the cart is automatically cleared.
+The checkout option generates a final bill containing the products and total amount. After a successful checkout, the cart is automatically cleared.
 
 ```text
 ===== BILL =====
@@ -100,15 +103,15 @@ Thank you for shopping!
 
 ### 6️⃣ Exit
 
-Closes the application.
+Closes the application and displays a farewell message.
 
 ```text
 Thank you for using Shopping Cart!
 ```
 
-## 🧠 Concepts Practiced
+## 🧠 Java Concepts Practiced
 
-This project provides hands-on practice with several fundamental Java concepts:
+This project provides practical experience with several core Java concepts:
 
 - Classes and Objects
 - Constructors
@@ -124,7 +127,7 @@ This project provides hands-on practice with several fundamental Java concepts:
 
 ## 📦 Product Class
 
-Each product is represented using a `Product` object containing its name and price.
+Each product is represented as a `Product` object containing its name and price.
 
 ```java
 class Product {
@@ -138,7 +141,7 @@ class Product {
 }
 ```
 
-## 🔄 Program Flow
+## 🔄 Application Flow
 
 ```text
 Start
@@ -183,12 +186,12 @@ java ShoppingCart
 
 ## 🚀 Future Improvements
 
-The application can be extended with additional features such as:
+The project can be further enhanced by adding features such as:
 
-- 📦 Product quantities
+- 📦 Product quantity management
 - 🆔 Unique product IDs
-- 🔍 Product search
-- 🎟️ Discount and coupon support
+- 🔍 Product search functionality
+- 🎟️ Discount and coupon system
 - 🧾 GST/tax calculation
 - 💾 File-based data storage
 - 🗄️ MySQL database integration
@@ -197,18 +200,18 @@ The application can be extended with additional features such as:
 
 ## 🎯 Learning Objective
 
-The main objective of this project is to strengthen **core Java and Object-Oriented Programming skills** by building a simple real-world application.
+The primary goal of this project is to strengthen **core Java and Object-Oriented Programming skills** by implementing a simple real-world application.
 
-It provides practical experience with **classes, objects, collections, methods, user input, and application logic**.
+Through this project, I gained practical experience working with **classes, objects, collections, methods, user input, loops, and application logic**.
 
 ## 👨‍💻 Author
 
 **Raj Sharma**
 
-A Java learning project created to practice **Object-Oriented Programming and Java Collections**.
+A Java learning project created to practice **Object-Oriented Programming, Java Collections, and basic application development**.
 
 ## 📄 License
 
-This project is created for **educational purposes**.
+This project was created for **educational purposes**.
 
 Feel free to use, modify, and improve the project for learning and practice.
