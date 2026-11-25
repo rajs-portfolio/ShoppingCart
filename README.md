@@ -1,19 +1,19 @@
 # 🛒 Shopping Cart Application – Java
 
-A beginner-friendly, console-based **Shopping Cart Application developed using Java**. This project simulates basic shopping cart operations, allowing users to add products, view cart items, remove products, calculate the total amount, and complete checkout through an interactive menu-driven interface.
+A simple, beginner-friendly **Shopping Cart Application built using Java**. This console-based project replicates basic shopping cart functionality, enabling users to add products, browse cart contents, remove items, view the total cost, and generate a bill through an interactive menu-driven system.
 
-The application was created to strengthen Java programming fundamentals and gain practical experience with Object-Oriented Programming (OOP), Java Collections, and basic application logic.
+The project was developed to improve practical Java programming skills while exploring essential concepts such as Object-Oriented Programming (OOP), Java Collections, user input handling, and application logic.
 
 ## ✨ Features
 
-- ➕ **Add Products** – Add products to the cart by entering their names and prices.
-- 👀 **View Cart** – Display all available products along with their prices.
-- ❌ **Remove Products** – Remove selected items using their respective item numbers.
-- 💰 **Calculate Total** – Calculate the combined cost of all products in the cart.
-- 🧾 **Checkout and Billing** – Generate a bill containing the purchased items and final amount.
-- 🗑️ **Clear Cart** – Automatically empty the cart after successful checkout.
-- 🚪 **Exit Application** – Close the program safely.
-- ✅ **Input Validation** – Handle basic invalid user inputs.
+- ➕ **Add Products** – Add new products to the cart by providing their names and prices.
+- 👀 **View Cart** – Display all items currently in the cart along with their respective prices.
+- ❌ **Remove Products** – Delete selected products by specifying their item numbers.
+- 💰 **View Total Amount** – Calculate the combined price of all products in the cart.
+- 🧾 **Checkout and Billing** – Generate a bill displaying purchased items and the final payable amount.
+- 🗑️ **Clear Cart** – Automatically remove all items from the cart after checkout.
+- 🚪 **Exit Application** – Safely terminate the program.
+- ✅ **Input Validation** – Handle basic invalid inputs to ensure smoother interaction.
 
 ## 🛠️ Technologies and Concepts
 
@@ -25,7 +25,7 @@ The application was created to strengthen Java programming fundamentals and gain
 - Encapsulation
 - Methods and Code Reusability
 - Loops and Conditional Statements
-- Switch Statements
+- Switch-Case Statements
 - Basic Input Validation
 
 ## 📂 Project Structure
@@ -38,7 +38,7 @@ ShoppingCart/
 
 ## ⚙️ Application Overview
 
-The program uses a menu-driven interface through which users can perform various shopping cart operations.
+The application operates through a simple interactive menu that allows users to choose and perform different shopping cart operations.
 
 ```text
 ===== SHOPPING CART =====
@@ -52,7 +52,7 @@ The program uses a menu-driven interface through which users can perform various
 
 ### 1️⃣ Add Products
 
-Users can enter a product name and its price to add a new item to the shopping cart.
+Users can enter the name and price of a product to add it to their shopping cart.
 
 **Example:**
 
@@ -65,7 +65,7 @@ Product added to cart!
 
 ### 2️⃣ View Cart
 
-Displays a list of all products currently added to the cart, including their individual prices.
+Displays all the products currently stored in the cart, including their names and individual prices.
 
 **Example:**
 
@@ -77,7 +77,7 @@ Displays a list of all products currently added to the cart, including their ind
 
 ### 3️⃣ Remove Products
 
-Allows users to remove a particular product by entering its corresponding item number.
+Users can select and remove a specific product by entering its corresponding item number.
 
 **Example:**
 
@@ -89,7 +89,7 @@ Mouse removed.
 
 ### 4️⃣ Calculate Total
 
-Calculates and displays the total price of all products currently available in the shopping cart.
+Computes the total cost of all products currently present in the shopping cart.
 
 **Example:**
 
@@ -99,7 +99,9 @@ Total: ₹1298.00
 
 ### 5️⃣ Checkout and Generate Bill
 
-Displays a purchase summary containing all cart items and their total cost. After completing checkout, the cart is automatically cleared, allowing users to start a fresh shopping session.
+Generates a purchase summary containing the names and prices of all items, followed by the final bill amount.
+
+Once checkout is completed, the shopping cart is automatically emptied so users can begin a new shopping session.
 
 **Example:**
 
@@ -115,7 +117,7 @@ Thank you for shopping!
 
 ### 6️⃣ Exit Application
 
-Allows users to terminate the application and displays a closing message before exiting.
+Provides an option to close the application safely, displaying a farewell message before terminating the program.
 
 ```text
 Thank you for using Shopping Cart!
@@ -123,23 +125,23 @@ Thank you for using Shopping Cart!
 
 ## 🧠 Java Concepts Practiced
 
-Through this project, the following Java programming concepts were implemented:
+This project helped reinforce several fundamental Java concepts through practical implementation:
 
-- Defining classes and creating objects.
-- Initializing objects using constructors.
-- Understanding and applying encapsulation.
-- Storing and managing product data using `ArrayList`.
-- Taking user input with the `Scanner` class.
-- Creating reusable methods to organize program functionality.
-- Iterating through collections using standard and enhanced `for` loops.
-- Using `while` loops to maintain continuous menu operations.
-- Implementing decision-making with `if-else` statements.
-- Managing user choices through `switch` statements.
-- Performing basic input validation.
+- Creating classes and objects to represent real-world entities.
+- Using constructors to initialize objects.
+- Applying encapsulation to organize and manage data.
+- Managing product information using the `ArrayList` collection.
+- Handling keyboard input through the `Scanner` class.
+- Developing reusable methods for different application operations.
+- Traversing collections using standard and enhanced `for` loops.
+- Using `while` loops to maintain continuous menu execution.
+- Implementing conditional logic with `if-else` statements.
+- Handling menu selections using `switch` statements.
+- Performing basic validation of user-provided inputs.
 
 ## 📦 Product Class
 
-The application uses a separate `Product` class to represent individual products. Each object stores the product's name and price.
+A dedicated `Product` class is used to represent individual items in the shopping cart. Each product object contains two attributes: its name and price.
 
 ```java
 class Product {
@@ -153,20 +155,20 @@ class Product {
 }
 ```
 
-This demonstrates how classes and objects can be used to represent real-world entities while keeping related data organized.
+This implementation demonstrates how Java classes and objects can model real-world entities while keeping related information organized within a single structure.
 
 ## 🔄 Application Workflow
 
 ```text
 Start Application
        ↓
-Display Menu
+Display Main Menu
        ↓
-Select an Operation
+Choose an Operation
        ↓
 Add / View / Remove Products
        ↓
-Calculate Total or Checkout
+Calculate Total or Proceed to Checkout
        ↓
 Generate Bill and Clear Cart
        ↓
@@ -179,9 +181,9 @@ Exit Application
 
 ### Prerequisites
 
-Make sure the Java Development Kit (JDK) is installed on your system.
+Ensure that the Java Development Kit (JDK) is installed and properly configured on your system.
 
-Verify the installation using the following commands:
+Check your Java installation using:
 
 ```bash
 java --version
@@ -190,7 +192,7 @@ javac --version
 
 ### Compile the Program
 
-Navigate to the project directory in your terminal and execute:
+Open a terminal, navigate to the project directory, and compile the Java source file:
 
 ```bash
 javac ShoppingCart.java
@@ -198,38 +200,40 @@ javac ShoppingCart.java
 
 ### Run the Application
 
+Execute the following command:
+
 ```bash
 java ShoppingCart
 ```
 
-The shopping cart menu will appear in your terminal, allowing you to interact with the application.
+The interactive shopping cart menu will appear in your terminal, allowing you to perform the available operations.
 
-## 🚀 Future Improvements
+## 🚀 Future Enhancements
 
-Some additional features that could make this application more advanced include:
+The application can be further developed by introducing additional functionality, such as:
 
-- 📦 Adding quantity management for products.
-- 🆔 Assigning unique identification numbers to products.
-- 🔍 Implementing product search functionality.
-- 🎟️ Supporting discount codes and coupons.
-- 🧾 Including GST and applicable tax calculations.
-- 💾 Storing shopping cart data using file handling.
-- 🗄️ Integrating a MySQL database for persistent storage.
-- 👤 Adding user registration and login functionality.
-- 🖥️ Building a graphical user interface (GUI).
+- 📦 Implementing product quantity management.
+- 🆔 Generating unique IDs for individual products.
+- 🔍 Adding a product search feature.
+- 🎟️ Introducing discount coupons and promotional offers.
+- 🧾 Implementing GST and tax calculations.
+- 💾 Saving cart information using Java file handling.
+- 🗄️ Integrating a MySQL database for persistent data storage.
+- 👤 Developing user registration and authentication.
+- 🖥️ Creating a graphical user interface (GUI).
 
 ## 🎯 Learning Objectives
 
-The main goal of this project was to apply Java fundamentals to a practical, real-world scenario while developing a better understanding of Object-Oriented Programming.
+The primary objective of this project was to strengthen Java fundamentals by developing a practical application based on a familiar real-world concept.
 
-Working on this application provided hands-on experience with classes, objects, constructors, collections, methods, loops, user input, and menu-driven application development.
+Building this shopping cart provided hands-on experience in implementing Object-Oriented Programming principles, working with collections, creating reusable methods, handling user input, and developing interactive console-based applications.
 
 ## 👨‍💻 Author
 
 **Raj Sharma**
 
-A beginner-level Java project developed as part of my programming journey to practice Java fundamentals, OOP principles, and basic application development.
+A beginner-friendly Java project developed as part of my programming learning journey, with a focus on strengthening core Java concepts, understanding OOP principles, and gaining practical application development experience.
 
 ## 📄 License
 
-This project is created for educational and learning purposes. Feel free to explore the source code, make modifications, and use it for your own programming practice.
+This project is intended for educational and personal learning purposes. You are welcome to explore the source code, modify its implementation, and use it for your own programming practice.
